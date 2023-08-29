@@ -1,0 +1,49 @@
+Decentralized Learning
+
+Never sent to server
+
+Only the weights and bias'es are received by the server
+	And they are averaged out to get new master model.
+
+Need to do many iterations
+
+"Secure Aggregation"
+
+Google --> Federated Learning
+	On Gboard mobile keyboard
+	cross-device FL
+
+Apple --> Federated Learning
+	On QuickType Keyboard
+	Vocal Classifier
+	cross-device FL
+
+doc.ai --> Explore what this application is
+	cross-device FL for medical research
+
+Snips
+	cross-device FL for hotword detection
+
+Homomorhpic Encryption
+	How homomorphic encryption is used in federated learning
+		Data Encryption
+		Model Training on Encrypted Data
+		Secure Model Updates
+		Decryption on Local Devices
+
+	Advantages of Homomorhpic Encryption
+		Data Privacy
+		Security
+		Compilance
+
+	Challenges with using Homomorhpic Encryption
+		Computational Overhead
+		Key Management
+		Limited Supported Operations
+		Performance depends on specific encryption scheme
+
+
+Intro to Homomorphic Encryption - "MicrosoftResearch" - Wei Dai - Private AI bootcamp - Dec 2, 2019
+	Use mainly the BFV scheme
+		Simpler way of explaining the homomorphic encryption
+		
