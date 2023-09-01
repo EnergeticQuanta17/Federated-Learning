@@ -46,4 +46,34 @@ Homomorhpic Encryption
 Intro to Homomorphic Encryption - "MicrosoftResearch" - Wei Dai - Private AI bootcamp - Dec 2, 2019
 	Use mainly the BFV scheme
 		Simpler way of explaining the homomorphic encryption
-		
+
+All data outside safe space must be encrypted.
+
+Popular Schemes
+	TFHE: logic gates on bits
+	BGV, BFV: exact arithmetic on vectors of numbers 
+	CKKS: approximate arithmetic on vectors of numbers
+
+Five Stages in HE
+	Setup
+		Scheme
+		Security parameters
+		Functionality Parameters
+
+	Key generation
+		Secret Key
+		Public Keys
+			Public Key
+			Relinearlization Key
+			Galois Key
+
+	Encryption
+		A number or a vector of numbers --> A ciphertext
+
+	Evaluation
+
+	Decyption
+
+Analogies
+	Public Key --> Anyone can lock the door, but only one has the key
+	HE --> Glove box
